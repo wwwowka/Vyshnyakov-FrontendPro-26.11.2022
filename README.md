@@ -14,3 +14,8 @@ Create a script that converts hours into seconds.
 ## Homework #4 - Calculator
 The script is a simple calculator. I'm using the Switch statement.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_04/)
+
+## Homework #5 - Numbers and strings
+String concatenation.
+Output the number in digits separated by a space.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_05/)

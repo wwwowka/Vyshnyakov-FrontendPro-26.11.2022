@@ -19,3 +19,7 @@ The script is a simple calculator. I'm using the Switch statement.
 String concatenation.
 Output the number in digits separated by a space.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_05/)
+
+## Homework #6 - The arithmetic mean
+The arithmetic mean of three numbers.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_06/)

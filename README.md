@@ -23,3 +23,7 @@ Output the number in digits separated by a space.
 ## Homework #6 - The arithmetic mean
 The arithmetic mean of three numbers.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_06/)
+
+## Homework #7 - User portrait
+Ask the user his year of birth, in which city he lives, his favorite sport.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_07/)

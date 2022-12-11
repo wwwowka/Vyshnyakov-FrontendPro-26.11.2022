@@ -27,3 +27,11 @@ The arithmetic mean of three numbers.
 ## Homework #7 - User portrait
 Ask the user his year of birth, in which city he lives, his favorite sport.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_07/)
+
+## Homework #8 - switch...case.
+Rewrite the code from if...else to switch...case
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_08/)
+
+## Homework #9 - Writing loops.
+Practice writing various loops.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_09/)

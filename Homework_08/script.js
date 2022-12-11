@@ -5,10 +5,7 @@ switch (numOrStr) {
     case null:
         console.log('ви скасували');
         break;
-    case "":
-        console.log('Empty String');
-        break;        
-    case /\s/.test(numOrStr) && numOrStr:   //magic1
+    case (/\s/.test(numOrStr) && numOrStr) || "":   //magic1
         console.log('Empty String');
         break;
     case !isNaN(numOrStr) || numOrStr:      //magic2

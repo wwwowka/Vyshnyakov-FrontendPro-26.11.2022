@@ -1,14 +1,14 @@
-let numOrStr = prompt('input number or string');
+const numOrStr = prompt('input number or string');
 console.log(numOrStr)
 
 switch (numOrStr) {
     case null:
         console.log('ви скасували');
         break;
-    case (/\s/.test(numOrStr) && numOrStr) || "":   //magic1
+    case !(numOrStr.trim() === "") || numOrStr: 
         console.log('Empty String');
         break;
-    case !isNaN(numOrStr) || numOrStr:      //magic2
+    case !isNaN(numOrStr) || numOrStr: 
         console.log(' number is Ba_NaN');
         break;
     default:

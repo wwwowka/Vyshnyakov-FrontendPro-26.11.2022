@@ -35,3 +35,7 @@ Rewrite the code from if...else to switch...case
 ## Homework #9 - Writing loops.
 Practice writing various loops.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_09/)
+
+## Homework #10 - More complex loops.
+Practice writing various more complex loops.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_10/)

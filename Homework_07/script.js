@@ -1,4 +1,4 @@
-const yearBirth = Number(prompt("Введіть свій рік народження."));
+const yearBirth = prompt("Введіть свій рік народження.");
 const cityLive = prompt("Введіть місто, в якому ти проживаєте.");
 const favoriteSport = prompt("Введіть свій улюблений вид спорту.");
 
@@ -10,12 +10,12 @@ let sportsInformation;
 switch (yearBirth) {
     case !isNaN(yearBirth) || yearBirth:
         age = `Ти ввів недопустиме значення року нарождення`;
-    case 0:
+        break;
+    case null:
         age = `Шкода, що ти не захотів(ла) ввести свій рік народження.`;
         break;
     default:
         age = year - yearBirth;
-        break;
 }
 
 switch (cityLive) {

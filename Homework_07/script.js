@@ -7,18 +7,17 @@ let age;
 let placeResidence;
 let sportsInformation;
 
-if (isNaN(yearBirth)) {
-    age = `Ти ввів недопустиме значення року нарождення`;
-} else {
-    switch (yearBirth) {
-        case 0:
-            age = `Шкода, що ти не захотів(ла) ввести свій рік народження.`;
-            break;
-        default:
-            age = year - yearBirth;
-            break;
-    }
+switch (yearBirth) {
+    case !isNaN(yearBirth) || yearBirth:
+        age = `Ти ввів недопустиме значення року нарождення`;
+    case 0:
+        age = `Шкода, що ти не захотів(ла) ввести свій рік народження.`;
+        break;
+    default:
+        age = year - yearBirth;
+        break;
 }
+
 switch (cityLive) {
     case "Київ":
         placeResidence = `Ти живеш у столиці України`;

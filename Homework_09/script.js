@@ -41,12 +41,10 @@ console.log(numberProduct);
 
 console.log("\nЗнайти середнє арифметичне всіх цілих чисел від 1 до 500:")
 let arithmeticMean = 0;
-let k = 1
-let j = 500;
-for (; k <= j; k++) {
-    arithmeticMean += k;
+for (i = 1; i <= 500; i++) {
+    arithmeticMean += i;
 }
-console.log(arithmeticMean / j);
+console.log(arithmeticMean / 500);
 
 console.log("\nВивести суму лише парних чисел в діапазоні від 30 до 80:")
 let evenNumbers = 0;
@@ -59,9 +57,11 @@ console.log(evenNumbers);
 console.log("\nВивести всі числа в діапазоні від 100 до 200 кратні 3:")
 let multiplesOf3 = "";
 for (let i = 100; i <= 200; i += 3) {
-    multiplesOf3 += i;
-    if (i < 200 - 3) {
-        multiplesOf3 += ", ";
+    if (100 < i) {
+        multiplesOf3 += i;
+        if (i < 200 - 3) {
+            multiplesOf3 += ", ";
+        }
     }
 }
 console.log(multiplesOf3);

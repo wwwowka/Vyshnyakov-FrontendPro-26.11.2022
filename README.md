@@ -47,3 +47,8 @@ Array creation and simple array manipulation.
 ## Homework #12 - Array search.
 Array search and simple array manipulation.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_12/)
+
+## Homework #13 - Users bills. Array.
+Display an array of user phone numbers. Find the sum of all user balances.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_12/)
+

@@ -21,7 +21,7 @@ for (let i = 10; i <= 100; i += 10) {
 console.log(sumDollar);
 
 //
-const integerN = 4011; //введіть ціле число
+const integerN = 3; //введіть ціле число
 //
 
 console.log("\nДане ціле число " + integerN + ". Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N:")
@@ -38,17 +38,17 @@ console.log(stringSquareNum);
 
 
 console.log("\nДане ціле число " + integerN + ". З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе:")
-let checkPrime = true;
+let hasPrime = true;
 
 if (integerN > 1) {
     for (let i = 2; i < integerN; i++) {
         if (integerN % i == 0) {
-            checkPrime = false;
+            hasPrime = false;
             break;
         }
     }
 
-    if (checkPrime) {
+    if (hasPrime) {
         console.log(integerN + " є простим");
     } else {
         console.log(integerN + " Не є простим");
@@ -59,16 +59,16 @@ if (integerN > 1) {
 
 
 console.log("\nДане число " + integerN + ". Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна):")
-let degree = -1;
-let checkDegree = false;
+let degree = 0;
+let hasDegree = false;
 for (let i = 1; i <= integerN; i = i * 3) {
     degree++;
     if (i === integerN) {
-      checkDegree = true;  
+      hasDegree = true;  
     }
 }
-if (checkDegree) {
-    console.log(integerN + " можна одержати це число шляхом зведення числа 3 у " + degree + " ступінь");
+if (hasDegree) {
+    console.log(integerN + " можна одержати це число шляхом зведення числа 3 у " + (degree - 1) + " ступінь");
 } else {
     console.log(integerN + " Не можна одержати це число шляхом зведення числа 3 у деякий ступінь");
 }

@@ -43,3 +43,7 @@ Practice writing various more complex loops.
 ## Homework #11 - Array.
 Array creation and simple array manipulation.
 [demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_11/)
+
+## Homework #12 - Array search.
+Array search and simple array manipulation.
+[demo](https://wwwowka.github.io/Hillel-Frontend-Pro/Homework_12/)

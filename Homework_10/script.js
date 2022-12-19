@@ -28,7 +28,7 @@ console.log("\nДане ціле число " + integerN + ". Вивести в�
 
 let stringSquareNum = "";
 for (let i = 1; i <= 100; i++) {
-    if (i * i > integerN) {
+    if (i * i >= integerN) {
         break;
     }
 

@@ -9,6 +9,7 @@ let quantityPositiveOdd = 0;
 let sumPositiveEven = 0;
 let sumPositiveOdd = 0;
 let multPositive = 1;
+
 for (const num of array) {
   if (num >= 0) {
     sumPositive += num;
@@ -22,6 +23,7 @@ for (const num of array) {
     }
   }
 }
+
 console.log(`Сума позитивних елементів:${sumPositive}; кількість:${quantityPositive}`);
 
 // Знайти мінімальний елемент масиву та його порядковий номер.
@@ -81,7 +83,7 @@ console.log(`Добуток позитивних елементів: ${multPosit
 // Знайти найбільший серед елементів масиву, остальні обнулити
 
 for (let i = 0; i < array.length; i++) {
-  if (array[i] != array[indexMax]) {
+  if (array[i] !== array[indexMax]) {
     array[i] = 0;
   }
 }

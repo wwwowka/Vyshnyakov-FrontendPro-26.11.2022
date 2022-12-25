@@ -1,4 +1,4 @@
-const userLenghtArray = +prompt("Введіть довжену массиву, числом");
+const userLenghtArray = +prompt('Введіть довжену массиву, числом');
 
 const userArray = new Array(userLenghtArray);
 
@@ -14,4 +14,3 @@ console.log(userArray.sort());
 console.log(userArray.splice(1, 3));
 
 console.log(userArray);
-

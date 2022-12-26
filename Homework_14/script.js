@@ -71,7 +71,6 @@ function fillArray(arr) {
 
 console.log(fillArray(made2dArray(userArrayLength, userSubarrayLength)));
 
-
 const arreyString = [...(prompt('Введіть слова'))];
 const arrayDelSymbol = [...(prompt('Введіть символи'))];
 

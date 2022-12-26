@@ -56,8 +56,8 @@ console.log(evenNumbers);
 
 console.log('\nВивести всі числа в діапазоні від 100 до 200 кратні 3:');
 let multiplesOf3 = '';
-for (let i = 100; i <= 200; i += 3) {
-  if (i > 100) {
+for (let i = 100; i <= 200; i += 1) {
+  if (i % 3 === 0) {
     multiplesOf3 += i;
     if (i < 200 - 3) {
       multiplesOf3 += ', ';

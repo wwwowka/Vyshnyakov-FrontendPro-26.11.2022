@@ -50,5 +50,8 @@ Array search and simple array manipulation.
 
 ## Homework #13 - Users bills. Array.
 Display an array of user phone numbers. Find the sum of all user balances.
-[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_12/)
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_13/)
 
+## Homework #14 - Git. Github.
+Git, Github, functions, arrays. 
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_14/)

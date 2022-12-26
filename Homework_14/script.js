@@ -70,3 +70,21 @@ function fillArray(arr) {
 }
 
 console.log(fillArray(made2dArray(userArrayLength, userSubarrayLength)));
+
+
+const arreyString = [...(prompt('Введіть слова'))];
+const arrayDelSymbol = [...(prompt('Введіть символи'))];
+
+function findDelete(arrStr, arrSym) {
+  for (let i = 0; i < arrStr.length; i += 1) {
+    for (let j = 0; j < arrSym.length; j += 1) {
+      if (arrStr[i] === arrSym[j]) {
+        arrStr.splice(i, 1);
+        i -= 1;
+      }
+    }
+  }
+  return arrStr;
+}
+
+console.log(findDelete(arreyString, arrayDelSymbol));

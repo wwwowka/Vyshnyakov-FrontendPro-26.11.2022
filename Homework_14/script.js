@@ -48,3 +48,25 @@ const userZnak = prompt('Введіть знак');
 const userNumY = +prompt('Введіть друге число');
 
 console.log(doMath(userNumX, userZnak, userNumY));
+
+const userArrayLength = +prompt('Введіть довжину масиву');
+const userSubarrayLength = +prompt('Введіть довжину підмасиву');
+
+function made2dArray(m, n) {
+  const arr = new Array(m);
+  for (let i = 0; i < m; i += 1) {
+    arr[i] = new Array(n);
+  }
+  return arr;
+}
+
+function fillArray(arr) {
+  for (let i = 0; i < arr.length; i += 1) {
+    for (let j = 0; j < arr[i].length; j += 1) {
+      arr[i][j] = prompt(`Введіть [${i}][${j}] елемент массиву текст або число`);
+    }
+  }
+  return arr;
+}
+
+console.log(fillArray(made2dArray(userArrayLength, userSubarrayLength)));

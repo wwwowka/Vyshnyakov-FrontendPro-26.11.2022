@@ -83,7 +83,7 @@ function findDelete(arrStr, arrSym) {
       }
     }
   }
-  return arrStr;
+  return arrStr.join('');
 }
 
 console.log(findDelete(arreyString, arrayDelSymbol));

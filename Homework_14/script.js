@@ -75,15 +75,16 @@ const arreyString = [...(prompt('Введіть слова'))];
 const arrayDelSymbol = [...(prompt('Введіть символи'))];
 
 function findDelete(arrStr, arrSym) {
-  for (let i = 0; i < arrStr.length; i += 1) {
+  const mutatedArrStr = [...arrStr];
+  for (let i = 0; i < mutatedArrStr.length; i += 1) {
     for (let j = 0; j < arrSym.length; j += 1) {
-      if (arrStr[i] === arrSym[j]) {
-        arrStr.splice(i, 1);
+      if (mutatedArrStr[i] === arrSym[j]) {
+        mutatedArrStr.splice(i, 1);
         i -= 1;
       }
     }
   }
-  return arrStr.join('');
+  return mutatedArrStr.join('');
 }
 
 console.log(findDelete(arreyString, arrayDelSymbol));

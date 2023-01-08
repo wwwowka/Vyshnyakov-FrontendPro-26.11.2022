@@ -59,11 +59,12 @@ Git, Github, functions, arrays.
 ...
 
 ## Homework #17 - this chain.
-    **   Iladder.up();
-    **  ladder.up();
-    **   ladder.down();
-    **   ladder.showStep();
-   
-    Modify the code of up, down and showStep to make the calls chainable, like this:
-    **   ladder.up().up().down().showStep();
+`   ladder.up();`
+`    ladder.down();`
+`    ladder.showStep();`
+
+Modify the code of up, down and showStep to make the calls chainable, like this:
+
+ `ladder.up().up().down().showStep();`
+ 
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_17/)

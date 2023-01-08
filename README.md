@@ -56,6 +56,10 @@ Display an array of user phone numbers. Find the sum of all user balances.
 Git, Github, functions, arrays. 
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_14/)
 
+## Homework #15 - Recursive, exponentiation
+Implement a recursive function that exponentiates a number.
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_15/)
+
 ...
 
 ## Homework #17 - this chain.

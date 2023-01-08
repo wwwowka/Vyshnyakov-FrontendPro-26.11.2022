@@ -55,3 +55,15 @@ Display an array of user phone numbers. Find the sum of all user balances.
 ## Homework #14 - Git. Github.
 Git, Github, functions, arrays. 
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_14/)
+
+...
+
+## Homework #17 - this chain.
+    **   Iladder.up();
+    **  ladder.up();
+    **   ladder.down();
+    **   ladder.showStep();
+   
+    Modify the code of up, down and showStep to make the calls chainable, like this:
+    **   ladder.up().up().down().showStep();
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_17/)

@@ -64,7 +64,7 @@ Implement a recursive function that exponentiates a number.
 Write a function with closure.
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_16/)
 
-## != Homework #17 - this chain.
+## Homework #17 - this chain.
 `   ladder.up();`
 `    ladder.down();`
 `    ladder.showStep();`

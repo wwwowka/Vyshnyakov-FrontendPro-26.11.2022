@@ -57,10 +57,21 @@ const users = [
 
 const usersPhone = [];
 let sumBlances = 0;
-for (let i = 0; i < users.length; i++) {
-  sumBlances += +(users[i].balance.slice(1, 2) + users[i].balance.slice(3));
 
-  if (users[i].balance > '$2,000') {
+function stringToNumberConverting(user) {
+  let userBalance = '';
+  for (let j = 0; j < users[user].balance.length; j += 1) {
+    if (users[user].balance[j] !== '$' && users[user].balance[j] !== ',') {
+      userBalance += users[user].balance[j];
+    }
+  }
+  return +userBalance;
+}
+
+for (let i = 0; i < users.length; i += 1) {
+  sumBlances += stringToNumberConverting(i);
+
+  if (stringToNumberConverting(i) > 2000) {
     usersPhone.push(users[i].phone);
   }
 }

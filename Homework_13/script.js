@@ -58,20 +58,20 @@ const users = [
 const usersPhone = [];
 let sumBlances = 0;
 
-function stringToNumberConverting(user) {
-  let userBalance = '';
-  for (let j = 0; j < users[user].balance.length; j += 1) {
-    if (users[user].balance[j] !== '$' && users[user].balance[j] !== ',') {
-      userBalance += users[user].balance[j];
+function stringToNumber(balance) {
+  let result = '';
+  for (let j = 0; j < balance.length; j += 1) {
+    if (balance[j] !== '$' && balance[j] !== ',') {
+      result += balance[j];
     }
   }
-  return +userBalance;
+  return +result;
 }
 
 for (let i = 0; i < users.length; i += 1) {
-  sumBlances += stringToNumberConverting(i);
+  sumBlances += stringToNumber(users[i].balance);
 
-  if (stringToNumberConverting(i) > 2000) {
+  if (stringToNumber(users[i].balance) > 2000) {
     usersPhone.push(users[i].phone);
   }
 }

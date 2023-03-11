@@ -74,3 +74,8 @@ Modify the code of up, down and showStep to make the calls chainable, like this:
  `ladder.up().up().down().showStep();`
  
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/Homework_17/)
+
+## Homework #27 - countdown timer.
+countdown timer like Google
+ 
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/HW_27_countdown_timer/)

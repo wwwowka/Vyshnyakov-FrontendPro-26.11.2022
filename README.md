@@ -79,3 +79,8 @@ Modify the code of up, down and showStep to make the calls chainable, like this:
 countdown timer like Google
  
 [demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/HW_27_countdown_timer/)
+
+## Homework #28 - Star Wars.
+Working with the swapi.dev API
+ 
+[demo](https://wwwowka.github.io/Vyshnyakov-FrontendPro-26.11.2022/HW_28_Star_Wars/)
